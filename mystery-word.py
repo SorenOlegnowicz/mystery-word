@@ -3,8 +3,8 @@ import os
 
 
 def find_word(path):
-    level = input("Which level of judgement would you like to be subjected?\
-     1/2/3: ")
+    level = input("""Which level of judgement would you like to be subjected?
+                  1/2/3: """)
     with open('/usr/share/dict/words') as words:
         word_list = words.read().split()
         word_choice = random.choice(word_list).lower()
