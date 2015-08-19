@@ -1,42 +1,23 @@
 # Mystery Word
 
-## Description
+## What this app does:
 
-Implement the game of Mystery Word.
-
-## Objectives
+It let's you play a game of Hangman with the computer.
 
 ### Learning Objectives
 
-After completing this assignment, you should understand:
+The goal of this assignment is utilize many of the basics of the Python.
 
-* All the basics of Python!
+## Assignment Details
 
 ### Performance Objectives
-
-After completing this assignment, you should be able to:
 
 * Create an interactive program.
 * Read from a file.
 * Choose a random value.
 * Keep track of state.
-* Test your code.
 
-## Details
-
-### Deliverables
-
-* A Git repo called mystery-word containing at least:
-  * a `README.md` file explaining how to run your project
-  * a `requirements.txt` file with any third-party packages needed
-  * a suite of tests for your project
-
-### Requirements  
-
-* Passing unit tests
-* No PEP8 warnings or errors
-
-## Normal Mode
+### Normal Mode
 
 You will implement the game Mystery Word. In your game, you will be playing
 against the computer.
@@ -91,28 +72,15 @@ characters; hard mode only has words of 10+ characters.
 3. Add a loop so that when a game ends, the user is asked if they want to play
 again and the game begins again if they reply in the positive.
 
-## Nightmare Mode
 
-Implement the [evil version of this game](http://nifty.stanford.edu/2011/schwarz-evil-hangman/).
+### Deliverables
 
-## Notes
+* A Git repo called mystery-word containing at least:
+  * a `README.md` file explaining how to run your project
+  * a `requirements.txt` file with any third-party packages needed
+  * a suite of tests for your project
 
-This is the first assignment where you are writing the tests. That makes it
-extra challenging.
+### Requirements  
 
-When testing, keep in mind that testing user input and output is hard. Testing
-functions that have no side-effects -- that is, they take some arguments and
-return a value without getting information from `input()` or using `random` --
-is much easier. Try to keep all your logic in _pure functions_ and then have an
-outer crust of functions that talk to the user or read from files surrounding
-your delicious pure function middle. If you are able to do this, you will not
-need to test that outer crust.
-
-## Additional Resources
-
-* [pytest](http://pytest.org/latest/).
-* [Working with Text Files](https://opentechschool.github.io/python-data-intro/core/text-files.html)
-
-## Credit
-
-This lab is based off a similar exercise in MIT's 6.00.1x course.
+* Passing unit tests
+* No PEP8 warnings or errors
