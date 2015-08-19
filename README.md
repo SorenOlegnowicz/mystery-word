@@ -4,6 +4,10 @@
 
 It let's you play a game of Hangman with the computer.
 
+```
+python3 mystery-word.py
+```
+
 ### Learning Objectives
 
 The goal of this assignment is utilize many of the basics of the Python.
